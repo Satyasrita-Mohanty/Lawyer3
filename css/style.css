@@ -211,8 +211,53 @@ margin-bottom: 50px;
 .learnButtonSubmit{
     display: block;
 }
-
-
+.textRight{
+   float: right;
+}
+.nav-tabs{
+    border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none;
+}
+.navLinkB{
+  color: #000000;   
+}
+.navLinkB:hover{
+    color: #af7004 !important;
+    font-weight: bold;
+}
+.active2{
+ color: #af7004 !important;   
+}
+.sideImg{
+    width: 100%;
+}
+.greyBox{
+    background-color:  #f2f2f2;
+    padding: 30px 30px;
+    margin-top: -65px;
+}
+.colorHeadingSmall{
+    text-transform: capitalize;
+}
+.Heading1Small{
+    font-size: 19px;
+}
+.marginTop{
+    margin-top: 40px;
+}
+.middleImg{
+  height: 330px;
+  width: 100%;
+}
+.card-body{
+    background-color: #fef6e6;
+    border: none;
+}
+.card{
+     border: none; 
+}
 
 
 
