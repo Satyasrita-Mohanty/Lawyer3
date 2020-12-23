@@ -258,7 +258,29 @@ margin-bottom: 50px;
 .card{
      border: none; 
 }
-
+.img1{
+    height: 365px;
+    width: 100%;
+}
+.backColor2{
+    padding: 10px 100px;
+    text-align: center;
+    margin: 0px 30px;
+}
+.colorIcon{
+    color: #af7004;
+    font-size: 50px;
+}
+.circleImg{
+   height: 50px;
+    width: 50px;
+}
+.carousel-control-prev-icon{
+  background-color: #af7004;
+}
+.carousel-control-next-icon{
+   background-color: #af7004;
+}
 
 
 
@@ -273,14 +295,25 @@ margin-bottom: 50px;
 
 /* Extra small devices (phones, 320px and down)  start */
 @media only screen and (max-width: 320px) {
-
+   
 
 }
 
 
 /* Medium devices ( 767px and down) start */
 @media only screen and (max-width: 767px){ 
-   
+    .marginMobile{
+        margin-top: -75px;
+    }
+    .backColor1{
+        padding: 10px 30px;
+    }
+     .mainHeading{
+        font-size: 28px !important;
+    }
+    .backColor2{
+        padding: 10px 35px;
+    }
 
 }
 
@@ -295,7 +328,18 @@ margin-bottom: 50px;
 
 /* Medium devices ( 768px and down) start */
 @media only screen and (max-width: 768px){ 
-
+ .topMargin{
+       margin-top: 10px; 
+    }
+    .bigHeading{
+        font-size: 42px;
+    }
+    .mainHeading{
+        font-size: 32px;
+    }
+    .learnButton{
+        padding: 18px 8px;
+    }
 
 }
 
